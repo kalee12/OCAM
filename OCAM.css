@@ -1,0 +1,68 @@
+.container-fluid {
+    height: 100%;
+  }
+  
+  .focus {
+    background-color: gray;
+    color: white;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    padding: 10%;
+    border-bottom: 1px solid rgba(61, 16, 112, .1);
+  }
+  
+  .item:hover {
+    background-color : #3d1070;
+    color: white;
+  }
+  
+  #list {
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  #map, #panel {
+    height: 100%;
+  }
+  
+  #panel {
+    padding: 0;
+  }
+  
+  #result {
+    padding: 10%;
+  }
+  
+  #resultContainer {
+    display: none;
+  }
+  
+  .row {
+    height: 100%;
+  }
+  
+  ::-webkit-scrollbar {
+    /*width: 0px;*/
+    background: transparent;
+  }
+  
+  /*#panel::-webkit-scrollbar {*/
+  /*    width: 10px !important;*/
+  /*    background: transparent;*/
+  /*}*/
+  
+  ::-webkit-scrollbar-thumb {
+    /*background: */
+    border-radius: 4px;
+    background-color: rgba(0, 0, 1, .2);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+  

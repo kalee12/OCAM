@@ -1,0 +1,1003 @@
+[
+    {
+      "NAME_MEMBER": "Central Oregon Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Bend",
+          "NAME_LIBRARY": "Barber Library",
+          "ADDRESS_CAMPUS": "2600 N.W. College Way Bend, OR 97703",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.072581,
+          "LONG": -121.349444,
+          "URL": "https://www.cocc.edu/departments/library/",
+          "URL_HOURS": "https://www.cocc.edu/departments/library/about/hours.aspx",
+          "PHONE_CIRCULATION": "(541) 383-7560",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Central Washington University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Ellensburg",
+          "NAME_LIBRARY": "Brooks Library",
+          "ADDRESS_CAMPUS": "400 E. University Way Ellensburg, WA 98926",
+          "ADDRESS_LIBRARY": "North Wildcat Way, E Dean Nicholson Blvd, Ellensburg, WA 98926",
+          "LAT": 47.005117,
+          "LONG": -120.541368,
+          "URL": "http://www.lib.cwu.edu/",
+          "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
+          "PHONE_CIRCULATION": "(509) 963-3682",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Des Moines",
+          "NAME_LIBRARY": "Des Moines Center Library",
+          "ADDRESS_CAMPUS": "2400 S 240th St Building 29, Des Moines, WA 98198",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.387548,
+          "LONG": -122.301691,
+          "URL": "http://www.lib.cwu.edu/Des-Moines-Campus-Library",
+          "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
+          "PHONE_CIRCULATION": "(206) 439-3800",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Lynnwood",
+          "NAME_LIBRARY": "Lynnwood Center Library",
+          "ADDRESS_CAMPUS": "20000 68th Ave W, Lynnwood, WA 98036",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.817047,
+          "LONG": -122.326785,
+          "URL": "http://www.lib.cwu.edu/Lynnwood-Campus-Library",
+          "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
+          "PHONE_CIRCULATION": "(425) 640-1574",
+          "LOGO": ""
+        }
+      ]  
+    },
+    {
+      "NAME_MEMBER": "Chemeketa Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Salem",
+          "NAME_LIBRARY": "Salem Campus Library",
+          "ADDRESS_CAMPUS": "4000 Lancaster Drive NE Salem, OR 97305",
+          "ADDRESS_LIBRARY": "Building 9, Second Floor 4000 Lancaster Dr. NE Salem, OR 97309",
+          "LAT": 44.978562,
+          "LONG": -122.978053,
+          "URL": "https://library.chemeketa.edu/",
+          "URL_HOURS": "https://library.chemeketa.edu/about-the-library/library-hours/",
+          "PHONE_CIRCULATION": "(503) 339-5043",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Yamhill Valley",
+          "NAME_LIBRARY": "Yamhill Valley Campus Library",
+          "ADDRESS_CAMPUS": "288 NE Norton Ln, McMinnville, OR 97128",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.201448,
+          "LONG": -123.163849,
+          "URL": "https://www.chemeketa.edu/locations/yamhill-valley-campus/student-services/",
+          "URL_HOURS": "https://library.chemeketa.edu/about-the-library/library-hours/",
+          "PHONE_CIRCULATION": "(503) 316-3238",
+          "LOGO": ""
+        }      
+      ]
+    },
+    {
+      "NAME_MEMBER": "Clackamas Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Oregon City",
+          "NAME_LIBRARY": "CCC Library",
+          "ADDRESS_CAMPUS": "19600 Molalla Avenue Oregon City, OR 97045-8980",
+          "ADDRESS_LIBRARY": "Dye Learning Centre, 19600 Molalla Ave, Oregon City, OR 97045",
+          "LAT": 45.323652,
+          "LONG": -122.576135,
+          "URL": "http://libguides.clackamas.edu/home",
+          "URL_HOURS": "http://libguides.clackamas.edu/hours",
+          "PHONE_CIRCULATION": "(503) 594-6323",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Clark College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Main",
+          "NAME_LIBRARY": "Lewis D. Cannell Library",
+          "ADDRESS_CAMPUS": "1933 Fort Vancouver Way Vancouver, WA 98663",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.635435,
+          "LONG": -122.650907,
+          "URL": "http://library.clark.edu/",
+          "URL_HOURS": "http://library.clark.edu/content/hours-exceptions",
+          "PHONE_CIRCULATION": "(360) 992-2151",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Concordia University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Portland",
+          "NAME_LIBRARY": "FWJ Sylwester Library",
+          "ADDRESS_CAMPUS": "2811 NE Holman Street Portland, OR 97211",
+          "ADDRESS_LIBRARY": "2811 NE Holman St, Portland, OR 97211",
+          "LAT": 45.570175,
+          "LONG": -122.636998,
+          "URL": "https://www.cu-portland.edu/academics/libraries",
+          "URL_HOURS": "Posted on library website",
+          "PHONE_CIRCULATION": "(503) 280-8507",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Eastern Oregon University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Pierce Library",
+          "ADDRESS_CAMPUS": "One University Boulevard La Grande, OR 97850-2807",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.320752,
+          "LONG": -118.091953,
+          "URL": "https://library.eou.edu/",
+          "URL_HOURS": "https://library.eou.edu/about/library-hours/",
+          "PHONE_CIRCULATION": "(541) 962-3864",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Eastern Washington University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Cheney",
+          "NAME_LIBRARY": "John F. Kennedy Memorial Library",
+          "ADDRESS_CAMPUS": "526 5th Street Cheney, WA 99004",
+          "ADDRESS_LIBRARY": "320 Media Ln, 100 Library Cheney, WA 99004",
+          "LAT": 47.490431,
+          "LONG": -117.583894,
+          "URL": "https://www.ewu.edu/library/",
+          "URL_HOURS": "https://www.ewu.edu/library/contact/#section-1",
+          "PHONE_CIRCULATION": "(509) 359-7888",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Riverpoint",
+          "NAME_LIBRARY": "Spokane Academic Library",
+          "ADDRESS_CAMPUS": "412 E Spokane Falls Blvd, Spokane, WA 99202",
+          "ADDRESS_LIBRARY": "600 N. Riverpoint Blvd., Academic Center, Room 230",
+          "LAT": 47.661435,
+          "LONG": -117.406076,
+          "URL": "https://spokane.wsu.edu/library/",
+          "URL_HOURS": "https://spokane.wsu.edu/library/about/",
+          "PHONE_CIRCULATION": "(509) 358-7930",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "George Fox University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Newberg",
+          "NAME_LIBRARY": "Murdock Library",
+          "ADDRESS_CAMPUS": "414 N. Meridian Street Newberg, OR 97132",
+          "ADDRESS_LIBRARY": "416 N Meridian St, Newberg, OR 97132",
+          "LAT": 45.303097,
+          "LONG": -122.96939,
+          "URL": "https://www.georgefox.edu/library/index.html",
+          "URL_HOURS": "https://www.georgefox.edu/library/about/locations/murdock.html",
+          "PHONE_CIRCULATION": "(503) 554-2410",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Portland Center",
+          "NAME_LIBRARY": "Portland Center Library",
+          "ADDRESS_CAMPUS": "12753 SW 68th Ave #185, Portland, OR 97223",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.427931,
+          "LONG": -122.747483,
+          "URL": "https://www.georgefox.edu/library/about/locations/pcl.html",
+          "URL_HOURS": "https://www.georgefox.edu/library/about/locations/pcl.html",
+          "PHONE_CIRCULATION": "(503) 554-6130",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Salem Site",
+          "NAME_LIBRARY": "Salem Site Library",
+          "ADDRESS_CAMPUS": "4910 Brooklake Rd NE, Brooks, OR 97305",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.04764,
+          "LONG": -122.958905,
+          "URL": "https://www.georgefox.edu/library/about/locations/salem-redmond.html",
+          "URL_HOURS": "https://www.georgefox.edu/library/about/locations/salem-redmond.html",
+          "PHONE_CIRCULATION": "Contact Murdock Library for services available: (503) 554-2410",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Redmond Site",
+          "NAME_LIBRARY": "Redmond Site Library",
+          "ADDRESS_CAMPUS": "4555 SW Elkhorn Ave, Redmond, OR 97756",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.235356,
+          "LONG": -121.217663,
+          "URL": "https://www.georgefox.edu/library/about/locations/salem-redmond.html",
+          "URL_HOURS": "https://www.georgefox.edu/library/about/locations/salem-redmond.html",
+          "PHONE_CIRCULATION": "Contact Murdock Library for services available: (503) 554-2410",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Lane Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Main",
+          "NAME_LIBRARY": "Lane Community College Library",
+          "ADDRESS_CAMPUS": "4000 E. 30th Avenue Eugene, OR 97405",
+          "ADDRESS_LIBRARY": "Center Building",
+          "LAT": 44.009265,
+          "LONG": -123.032603,
+          "URL": "https://library.lanecc.edu/",
+          "URL_HOURS": "https://library.lanecc.edu/about/hours",
+          "PHONE_CIRCULATION": "(541) 463-5220",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Lewis & Clark College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Aubrey R. Watzek Library",
+          "ADDRESS_CAMPUS": "0615 Palatine Hill Road Portland, OR 97219",
+          "ADDRESS_LIBRARY": "0615 SW Palatine Hill Rd, Portland, OR 97219",
+          "LAT": 45.450842,
+          "LONG": -122.669088,
+          "URL": "https://college.lclark.edu/library/",
+          "URL_HOURS": "https://library.lclark.edu/hours-calendar",
+          "PHONE_CIRCULATION": "(503) 768-7270",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Linfield College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "McMinnville Campus",
+          "NAME_LIBRARY": "Jereld R. Nicholson Library",
+          "ADDRESS_CAMPUS": "900 SE Baker Street McMinnville, OR 97128",
+          "ADDRESS_LIBRARY": "Ford Dr, McMinnville, OR 97128",
+          "LAT": 45.195729,
+          "LONG": -123.20074,
+          "URL": "https://www.linfield.edu/linfield-libraries.html",
+          "URL_HOURS": "https://www.linfield.edu/linfield-libraries/libraries-information/library-hours.html",
+          "PHONE_CIRCULATION": "(503) 883-2261",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Portland Campus",
+          "NAME_LIBRARY": "Portland Campus Library",
+          "ADDRESS_CAMPUS": "2255 NW Northrup Portland, Oregon 97210",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.531425,
+          "LONG": -122.697583,
+          "URL": null,
+          "URL_HOURS": "https://www.linfield.edu/linfield-libraries/libraries-information/library-hours.html",
+          "PHONE_CIRCULATION": "(503) 413-7334",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Mt. Hood Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Gresham",
+          "NAME_LIBRARY": "Gresham Library",
+          "ADDRESS_CAMPUS": "26000 SE Stark Street Gresham, OR 97030",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.515515,
+          "LONG": -122.396457,
+          "URL": "https://www.mhcc.edu/library/",
+          "URL_HOURS": "https://www.mhcc.edu/LibraryHours/",
+          "PHONE_CIRCULATION": "(503) 491-7161",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Maywood",
+          "NAME_LIBRARY": "Maywood Park Library",
+          "ADDRESS_CAMPUS": "10100 NE Prescott St Portland, OR 97220",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.554681,
+          "LONG": -122.558469,
+          "URL": null,
+          "URL_HOURS": "https://www.mhcc.edu/LibraryHours/",
+          "PHONE_CIRCULATION": "(503) 491-6122",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Orbis Cascade Alliance",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": null,
+          "ADDRESS_CAMPUS": "2300 Oakmont Way Suite 112 Eugene, OR 97401-5530",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.06714,
+          "LONG": -123.075303,
+          "URL": "https://www.orbiscascade.org/",
+          "URL_HOURS": "null",
+          "PHONE_CIRCULATION": "(541) 246-2470",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Oregon Health & Science University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Marquam Hill",
+          "NAME_LIBRARY": "OHSU Library",
+          "ADDRESS_CAMPUS": "3181 S.W. Sam Jackson Park Road Portland, OR 97239-3098",
+          "ADDRESS_LIBRARY": "3171 SW Sam Jackson Park Rd, Portland, OR 97239",
+          "LAT": 45.498894,
+          "LONG": -122.687394,
+          "URL": "https://www.ohsu.edu/library",
+          "URL_HOURS": "https://www.ohsu.edu/library/full-calendar-hours",
+          "PHONE_CIRCULATION": "(503) 494-3460",
+          "LOGO": ""
+        }
+      ]
+    },
+   {
+      "NAME_MEMBER": "Oregon Institute of Technology",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Klamath Falls",
+          "NAME_LIBRARY": "Klamath Falls Library",
+          "ADDRESS_CAMPUS": "3201 Campus Drive Klamath Falls, OR 97601",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 42.256977,
+          "LONG": -121.786526,
+          "URL": "https://www.oit.edu/libraries",
+          "URL_HOURS": "https://www.oit.edu/libraries/about/library-service-hours",
+          "PHONE_CIRCULATION": "(541) 885-1772",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Portland Metro",
+          "NAME_LIBRARY": "Wilsonville Library",
+          "ADDRESS_CAMPUS": "27500 SW Parkway Ave, Wilsonville, OR 97070",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.321738,
+          "LONG": -122.766433,
+          "URL": null,
+          "URL_HOURS": "https://www.oit.edu/libraries/about/library-service-hours",
+          "PHONE_CIRCULATION": "(503) 821-1258",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Oregon State University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Corvallis",
+          "NAME_LIBRARY": "Valley Library",
+          "ADDRESS_CAMPUS": "1500 SW Jefferson Avenue Corvallis, OR 97331",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.565078,
+          "LONG": -123.276019,
+          "URL": "https://library.oregonstate.edu/",
+          "URL_HOURS": "https://library.oregonstate.edu/valley-library-hours",
+          "PHONE_CIRCULATION": "(541) 737-3331",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Cascades",
+          "NAME_LIBRARY": "OSU Cascades Library",
+          "ADDRESS_CAMPUS": "1500 SW Chandler Avenue, Bend, OR 97702",
+          "ADDRESS_LIBRARY": "Tykeson Hall 202 1500 SW Chandler Avenue Bend, OR 97702",
+          "LAT": 44.042967,
+          "LONG": -121.333489,
+          "URL": "https://cascades.library.oregonstate.edu/",
+          "URL_HOURS": "https://cascades.library.oregonstate.edu/cascades-hours",
+          "PHONE_CIRCULATION": "(541) 322-2079",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Pacific University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Forest Grove",
+          "NAME_LIBRARY": "Tim & Cathy Tran Library",
+          "ADDRESS_CAMPUS": "2043 College Way Forest Grove, OR 97116",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.521449,
+          "LONG": -123.108703,
+          "URL": "https://www.lib.pacificu.edu/",
+          "URL_HOURS": "https://www.lib.pacificu.edu/forest-grove/",
+          "PHONE_CIRCULATION": "(503) 353-1400",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Hilsboro",
+          "NAME_LIBRARY": "Hilsboro Campus Library",
+          "ADDRESS_CAMPUS": "222 SE 8th Ave, Hillsboro, OR 97123",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.521029,
+          "LONG": -122.97687,
+          "URL": "https://www.lib.pacificu.edu/hillsboro/",
+          "URL_HOURS": "https://www.lib.pacificu.edu/hillsboro/",
+          "PHONE_CIRCULATION": "(503) 352-7331",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Eugene",
+          "NAME_LIBRARY": "Eugene Campus Library",
+          "ADDRESS_CAMPUS": "40 E Broadway # 250, Eugene, OR 97401",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.049676,
+          "LONG": -123.092262,
+          "URL": "https://www.lib.pacificu.edu/eugene/",
+          "URL_HOURS": "https://www.lib.pacificu.edu/eugene/",
+          "PHONE_CIRCULATION": "(503) 352-1418",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Woodburn",
+          "NAME_LIBRARY": "Woodburn Campus Library",
+          "ADDRESS_CAMPUS": "124 W Lincoln St, Woodburn, OR 97071",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.143909,
+          "LONG": -122.855046,
+          "URL": "https://www.lib.pacificu.edu/woodburn/",
+          "URL_HOURS": "https://www.lib.pacificu.edu/woodburn/",
+          "PHONE_CIRCULATION": "(503) 352-1418",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Portland Community College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Sylvania",
+          "NAME_LIBRARY": "Sylvania Library",
+          "ADDRESS_CAMPUS": "12000 SW 49th Avenue Portland, OR 97219",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.438149,
+          "LONG": -122.730786,
+          "URL": "https://www.pcc.edu/library/",
+          "URL_HOURS": "https://www.pcc.edu/library/hours/",
+          "PHONE_CIRCULATION": "(971) 722-4935",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Cascade",
+          "NAME_LIBRARY": "Cascade Library",
+          "ADDRESS_CAMPUS": "705 N. Killingsworth St. Portland, OR 97217",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.563155,
+          "LONG": -122.673515,
+          "URL": "https://www.pcc.edu/library/hours/cascade/",
+          "URL_HOURS": "https://www.pcc.edu/library/hours/",
+          "PHONE_CIRCULATION": "(971) 722-5322",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Rock Creek",
+          "NAME_LIBRARY": "Rock Creek Library",
+          "ADDRESS_CAMPUS": "17705 NW Springville Rd, Portland, OR 97229",
+          "ADDRESS_LIBRARY": "Bldg 9 - 2nd Floor 17705 N.W. Springville Rd. Portland, OR 97229",
+          "LAT": 45.566022,
+          "LONG": -122.860385,
+          "URL": "https://www.pcc.edu/library/hours/rock-creek/",
+          "URL_HOURS": "https://www.pcc.edu/library/hours/",
+          "PHONE_CIRCULATION": "(971) 722-7413",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Southeast",
+          "NAME_LIBRARY": "Southeast Library",
+          "ADDRESS_CAMPUS": "2305 SE 82nd Ave, Portland, OR 97216",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.505424,
+          "LONG": -122.580156,
+          "URL": "https://www.pcc.edu/library/hours/southeast/",
+          "URL_HOURS": "https://www.pcc.edu/library/hours/",
+          "PHONE_CIRCULATION": "(971) 722-6187",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Portland State University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Branford P. Millar Library",
+          "ADDRESS_CAMPUS": "1825 SW Broadway Portland, OR 97201",
+          "ADDRESS_LIBRARY": "1875 SW Park Ave, Portland, OR 97201",
+          "LAT": 45.51153,
+          "LONG": -122.686048,
+          "URL": "https://library.pdx.edu/",
+          "URL_HOURS": "https://library.pdx.edu/about/hours/",
+          "PHONE_CIRCULATION": "(503) 725-5874",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Reed College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Eric V. Hauser Memorial Library",
+          "ADDRESS_CAMPUS": "3203 Southeast Woodstock Boulevard Portland, OR 97202-8199",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.48026,
+          "LONG": -122.628626,
+          "URL": "https://library.reed.edu/",
+          "URL_HOURS": "https://library.reed.edu/hours.html",
+          "PHONE_CIRCULATION": "(503) 777-7702",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Saint Martin's University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "O'Grady Library",
+          "ADDRESS_CAMPUS": "5000 Abbey Way SE Lacey, WA 98503-7500",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.040918,
+          "LONG": -122.816416,
+          "URL": "https://www.stmartin.edu/academics/academic-resources/ogrady-library",
+          "URL_HOURS": "https://www.stmartin.edu/academics/academic-resources/ogrady-library/about/hours",
+          "PHONE_CIRCULATION": "(360) 688-2260",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Seattle Pacific University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Ames Library",
+          "ADDRESS_CAMPUS": "3307 3rd Ave West Seattle, WA 98119-1997",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.649191,
+          "LONG": -122.363848,
+          "URL": "https://spu.edu/library",
+          "URL_HOURS": "https://spu.edu/library/about-the-library/library-hours",
+          "PHONE_CIRCULATION": "(206) 281-2228",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Seattle University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Lemieux Library and McGolderick Learning Commons",
+          "ADDRESS_CAMPUS": "901 12th Avenue Seattle, WA 98122",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.608878,
+          "LONG": -122.318831,
+          "URL": "https://www.seattleu.edu/library/",
+          "URL_HOURS": "https://libguides.seattleu.edu/libraryhours",
+          "PHONE_CIRCULATION": "(206) 296-6233",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Southern Oregon University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Hannon Library",
+          "ADDRESS_CAMPUS": "1250 Siskiyou Boulevard Ashland, OR 97520",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 42.185067,
+          "LONG": -122.694947,
+          "URL": "https://hanlib.sou.edu/",
+          "URL_HOURS": "https://hanlib.sou.edu/about/hours.html",
+          "PHONE_CIRCULATION": "(541) 552-6860",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "The Evergreen State College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Olympia",
+          "NAME_LIBRARY": "Daniel J. Evans Library",
+          "ADDRESS_CAMPUS": "2700 Evergreen Parkway NW Olympia, WA 98505",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.073686,
+          "LONG": -122.977761,
+          "URL": "https://www.evergreen.edu/library",
+          "URL_HOURS": "https://www.evergreen.edu/library/hours",
+          "PHONE_CIRCULATION": "(360) 867-6250",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "University of Idaho",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "University of Idaho Library",
+          "ADDRESS_CAMPUS": "709 S. Deakin Street Moscow, ID 83844",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 46.727378,
+          "LONG": -117.014256,
+          "URL": "https://www.lib.uidaho.edu/",
+          "URL_HOURS": "https://www.lib.uidaho.edu/about/hours.html",
+          "PHONE_CIRCULATION": "(208) 885-6534",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "University of Oregon",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Eugene",
+          "NAME_LIBRARY": "Knight Library",
+          "ADDRESS_CAMPUS": "1585 E. 13th Avenue Eugene, OR 97403",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.0432,
+          "LONG": -123.077731,
+          "URL": "https://library.uoregon.edu/",
+          "URL_HOURS": "https://library.uoregon.edu/knight/hours/month",
+          "PHONE_CIRCULATION": "(541) 346-3053",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Portland",
+          "NAME_LIBRARY": "Portland Library and Learning Commons",
+          "ADDRESS_CAMPUS": "White Stag Block, 70 NW Couch St, Portland, OR 97209",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.523446,
+          "LONG": -122.671005,
+          "URL": "https://library.uoregon.edu/portland",
+          "URL_HOURS": "https://library.uoregon.edu/portland/hours/month",
+          "PHONE_CIRCULATION": "(503) 412-3671",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "University of Portland",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Clark Library",
+          "ADDRESS_CAMPUS": "5000 N. Willamette Blvd. Portland, OR 97203-5798",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.572809,
+          "LONG": -122.726747,
+          "URL": "https://library.up.edu/index.html",
+          "URL_HOURS": "https://library.up.edu/about-the-library/hours/index.html",
+          "PHONE_CIRCULATION": "(503) 943-7111",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "University of Puget Sound",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Collins Memorial Library",
+          "ADDRESS_CAMPUS": "1500 N. Warner Street Tacoma, WA 98416",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.264617,
+          "LONG": -122.481726,
+          "URL": "https://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/",
+          "URL_HOURS": "https://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/about-collins/hours/",
+          "PHONE_CIRCULATION": "(253) 879-3669",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "University of Washington",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Seattle",
+          "NAME_LIBRARY": "Suzzallo and Allen Library",
+          "ADDRESS_CAMPUS": "4000 15th Ave NE, Seattle, WA 98195",
+          "ADDRESS_LIBRARY": "4000 15th Ave NE, Seattle, WA 98195",
+          "LAT": 47.655783,
+          "LONG": -122.307835,
+          "URL": "https://www.lib.washington.edu/",
+          "URL_HOURS": "https://www.lib.washington.edu/about/hours/suzzallo",
+          "PHONE_CIRCULATION": "(206) 543-0242",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Bothell",
+          "NAME_LIBRARY": "UW Bothell and Cascadia College Library",
+          "ADDRESS_CAMPUS": "18115 Campus Way NE, Bothell, WA 98011",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.759909,
+          "LONG": -122.191328,
+          "URL": "http://library.uwb.edu/",
+          "URL_HOURS": "https://guides.lib.uw.edu/bothell/hours",
+          "PHONE_CIRCULATION": "(425) 352-5340",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Tacoma",
+          "NAME_LIBRARY": "UW Tacoma Library",
+          "ADDRESS_CAMPUS": "1900 Commerce St, Tacoma, WA 98402",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.2446,
+          "LONG": -122.437982,
+          "URL": "https://www.tacoma.uw.edu/library/library",
+          "URL_HOURS": "https://www.tacoma.uw.edu/library/library-hours",
+          "PHONE_CIRCULATION": "(253) 692-4440",
+          "LOGO": ""
+        }
+      ]
+    },  
+    {
+      "NAME_MEMBER": "Walla Walla University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "College Place",
+          "NAME_LIBRARY": "Peterson Memorial Library",
+          "ADDRESS_CAMPUS": "204 South College Avenue College Place, WA 99324",
+          "ADDRESS_LIBRARY": "104 S College Ave, College Place, WA 99324",
+          "LAT": 46.048088,
+          "LONG": -118.389558,
+          "URL": "https://www.wallawalla.edu/academics/libraries/",
+          "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
+          "PHONE_CIRCULATION": "(509) 527-2134",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Portland Nursing",
+          "NAME_LIBRARY": "Portland Nursing Library",
+          "ADDRESS_CAMPUS": "10345 SE Market St, Portland, OR 97216",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.512194,
+          "LONG": -122.55661,
+          "URL": "https://www.wallawalla.edu/academics/libraries/portland-library/",
+          "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
+          "PHONE_CIRCULATION": "Portland Nursing Librarian: (509) 527-2134",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Missoula",
+          "NAME_LIBRARY": "Missoula Library",
+          "ADDRESS_CAMPUS": "2415 Mullan Rd, Missoula, MT 59808",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 46.881697,
+          "LONG": -114.027812,
+          "URL": "https://www.wallawalla.edu/academics/libraries/academicslibrariesmontana/?no_cache=1",
+          "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
+          "PHONE_CIRCULATION": "Missoula Library Research Consultant: (406) 829-1494",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Billings",
+          "NAME_LIBRARY": "Billings Library",
+          "ADDRESS_CAMPUS": "2520 5th Ave. S Billings, Montana 59101",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.7775,
+          "LONG": -108.49652,
+          "URL": "https://www.wallawalla.edu/academics/libraries/academicslibrariesmontana/?no_cache=1",
+          "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
+          "PHONE_CIRCULATION": "(406) 254-9907",
+          "LOGO": ""
+        }
+      ]
+    },  
+    {
+      "NAME_MEMBER": "Warner Pacific University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Mt. Tabor",
+          "NAME_LIBRARY": "Otto F. Linn Library",
+          "ADDRESS_CAMPUS": "2219 SE 68th Avenue Portland, OR 97215",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.506326,
+          "LONG": -122.594226,
+          "URL": "https://library.warnerpacific.edu/",
+          "URL_HOURS": "https://library.warnerpacific.edu/about/hours/",
+          "PHONE_CIRCULATION": "(503) 517-1102",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Washington State University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": "Pullman",
+          "NAME_LIBRARY": "Holland & Terrall Libraries",
+          "ADDRESS_CAMPUS": "Ellis Way Pullman, WA 99164",
+          "ADDRESS_LIBRARY": "140 Glenn Terrell Mall, Pullman, WA 99164",
+          "LAT": 46.731344,
+          "LONG": -117.163691,
+          "URL": "https://libraries.wsu.edu/",
+          "URL_HOURS": "https://libraries.wsu.edu/about/holland-terrell",
+          "PHONE_CIRCULATION": "(509) 335-9672",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Spokane",
+          "NAME_LIBRARY": "Spokane Academic Library",
+          "ADDRESS_CAMPUS": "412 E Spokane Falls Blvd, Spokane, WA 99202",
+          "ADDRESS_LIBRARY": "600 N. Riverpoint Blvd., Academic Center, Room 230",
+          "LAT": 47.661435,
+          "LONG": -117.406076,
+          "URL": "https://spokane.wsu.edu/library/",
+          "URL_HOURS": "https://spokane.wsu.edu/library/about/",
+          "PHONE_CIRCULATION": "(509) 358-7930",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Tri-Cities",
+          "NAME_LIBRARY": "Max E. Benitz Memorial Library",
+          "ADDRESS_CAMPUS": "139-101 Sprout Rd, Richland, WA 99354",
+          "ADDRESS_LIBRARY": "2770 Crimson Way Richland, WA 99354-1671",
+          "LAT": 46.332266,
+          "LONG": -119.264508,
+          "URL": "http://tricities.wsu.edu/wsu-tri-cities-library",
+          "URL_HOURS": "https://tricities.wsu.edu/wsu-tri-cities-library/contact/",
+          "PHONE_CIRCULATION": "(509) 372-7430",
+          "LOGO": ""
+        },
+        {
+          "NAME_MEMBER": "",
+          "NAME_CAMPUS": "Vancouver",
+          "NAME_LIBRARY": "Vancouver Library",
+          "ADDRESS_CAMPUS": "14204 NE Salmon Creek Ave, Vancouver, WA 98686",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 45.730988,
+          "LONG": -122.636155,
+          "URL": "https://library.vancouver.wsu.edu/",
+          "URL_HOURS": "https://library.vancouver.wsu.edu/library-hours",
+          "PHONE_CIRCULATION": "(360) 546-9686",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Western Oregon University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Hamersly Library",
+          "ADDRESS_CAMPUS": "345 N. Monmouth Avenue Monmouth, OR 97361",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.852891,
+          "LONG": -123.236842,
+          "URL": "https://library.wou.edu/",
+          "URL_HOURS": "https://library.wou.edu/hours/",
+          "PHONE_CIRCULATION": "(503) 838-8418",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Western Washington University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Wilson Library",
+          "ADDRESS_CAMPUS": "516 High Street Bellingham, WA 98225-9103",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 48.737859,
+          "LONG": -122.485915,
+          "URL": "https://library.wwu.edu/",
+          "URL_HOURS": "https://library.wwu.edu/about/hours",
+          "PHONE_CIRCULATION": "(360) 650-3084",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Whitman College",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Penrose Library",
+          "ADDRESS_CAMPUS": "345 Boyer Avenue Walla Walla, WA 99362",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 46.071728,
+          "LONG": -118.329598,
+          "URL": "https://library.whitman.edu/",
+          "URL_HOURS": "https://library.whitman.edu/about-the-library/#Hours",
+          "PHONE_CIRCULATION": "(509) 527-5192",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Whitworth University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Harrier Cheney Cowles Memorial Library",
+          "ADDRESS_CAMPUS": "300 W. Hawthorne Road Spokane, WA 99251",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 47.753332,
+          "LONG": -117.416922,
+          "URL": "https://libguides.whitworth.edu/main",
+          "URL_HOURS": "http://libguides.whitworth.edu/about/hours",
+          "PHONE_CIRCULATION": "(509) 777-4491",
+          "LOGO": ""
+        }
+      ]
+    },
+    {
+      "NAME_MEMBER": "Willamette University",
+      "CAMPUSES": [
+        {
+          "NAME_CAMPUS": null,
+          "NAME_LIBRARY": "Mark O. Hatfield Library",
+          "ADDRESS_CAMPUS": "900 State Street Salem, OR 97301",
+          "ADDRESS_LIBRARY": null,
+          "LAT": 44.935537,
+          "LONG": -123.030672,
+          "URL": "https://library.willamette.edu/",
+          "URL_HOURS": "https://library.willamette.edu/about/calendar/",
+          "PHONE_CIRCULATION": "(503) 370-6018",
+          "LOGO": ""      
+        }
+      ]
+    }
+  ]
