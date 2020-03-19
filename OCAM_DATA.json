@@ -32,7 +32,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Des Moines",
           "NAME_LIBRARY": "Des Moines Center Library",
           "ADDRESS_CAMPUS": "2400 S 240th St Building 29, Des Moines, WA 98198",
@@ -45,7 +44,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Lynnwood",
           "NAME_LIBRARY": "Lynnwood Center Library",
           "ADDRESS_CAMPUS": "20000 68th Ave W, Lynnwood, WA 98036",
@@ -75,7 +73,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Yamhill Valley",
           "NAME_LIBRARY": "Yamhill Valley Campus Library",
           "ADDRESS_CAMPUS": "288 NE Norton Ln, McMinnville, OR 97128",
@@ -173,7 +170,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Riverpoint",
           "NAME_LIBRARY": "Spokane Academic Library",
           "ADDRESS_CAMPUS": "412 E Spokane Falls Blvd, Spokane, WA 99202",
@@ -203,7 +199,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Portland Center",
           "NAME_LIBRARY": "Portland Center Library",
           "ADDRESS_CAMPUS": "12753 SW 68th Ave #185, Portland, OR 97223",
@@ -216,8 +211,7 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
-          "NAME_CAMPUS": "Salem Site",
+          "NAME_CAMPUS": "Salem",
           "NAME_LIBRARY": "Salem Site Library",
           "ADDRESS_CAMPUS": "4910 Brooklake Rd NE, Brooks, OR 97305",
           "ADDRESS_LIBRARY": null,
@@ -229,8 +223,7 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
-          "NAME_CAMPUS": "Redmond Site",
+          "NAME_CAMPUS": "Redmond",
           "NAME_LIBRARY": "Redmond Site Library",
           "ADDRESS_CAMPUS": "4555 SW Elkhorn Ave, Redmond, OR 97756",
           "ADDRESS_LIBRARY": null,
@@ -281,7 +274,7 @@
       "NAME_MEMBER": "Linfield College",
       "CAMPUSES": [
         {
-          "NAME_CAMPUS": "McMinnville Campus",
+          "NAME_CAMPUS": "McMinnville",
           "NAME_LIBRARY": "Jereld R. Nicholson Library",
           "ADDRESS_CAMPUS": "900 SE Baker Street McMinnville, OR 97128",
           "ADDRESS_LIBRARY": "Ford Dr, McMinnville, OR 97128",
@@ -293,8 +286,7 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
-          "NAME_CAMPUS": "Portland Campus",
+          "NAME_CAMPUS": "Portland",
           "NAME_LIBRARY": "Portland Campus Library",
           "ADDRESS_CAMPUS": "2255 NW Northrup Portland, Oregon 97210",
           "ADDRESS_LIBRARY": null,
@@ -323,7 +315,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Maywood",
           "NAME_LIBRARY": "Maywood Park Library",
           "ADDRESS_CAMPUS": "10100 NE Prescott St Portland, OR 97220",
@@ -387,7 +378,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Portland Metro",
           "NAME_LIBRARY": "Wilsonville Library",
           "ADDRESS_CAMPUS": "27500 SW Parkway Ave, Wilsonville, OR 97070",
@@ -417,7 +407,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Cascades",
           "NAME_LIBRARY": "OSU Cascades Library",
           "ADDRESS_CAMPUS": "1500 SW Chandler Avenue, Bend, OR 97702",
@@ -447,7 +436,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Hilsboro",
           "NAME_LIBRARY": "Hilsboro Campus Library",
           "ADDRESS_CAMPUS": "222 SE 8th Ave, Hillsboro, OR 97123",
@@ -460,7 +448,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Eugene",
           "NAME_LIBRARY": "Eugene Campus Library",
           "ADDRESS_CAMPUS": "40 E Broadway # 250, Eugene, OR 97401",
@@ -473,7 +460,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Woodburn",
           "NAME_LIBRARY": "Woodburn Campus Library",
           "ADDRESS_CAMPUS": "124 W Lincoln St, Woodburn, OR 97071",
@@ -503,7 +489,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Cascade",
           "NAME_LIBRARY": "Cascade Library",
           "ADDRESS_CAMPUS": "705 N. Killingsworth St. Portland, OR 97217",
@@ -516,7 +501,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Rock Creek",
           "NAME_LIBRARY": "Rock Creek Library",
           "ADDRESS_CAMPUS": "17705 NW Springville Rd, Portland, OR 97229",
@@ -529,7 +513,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Southeast",
           "NAME_LIBRARY": "Southeast Library",
           "ADDRESS_CAMPUS": "2305 SE 82nd Ave, Portland, OR 97216",
@@ -695,7 +678,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Portland",
           "NAME_LIBRARY": "Portland Library and Learning Commons",
           "ADDRESS_CAMPUS": "White Stag Block, 70 NW Couch St, Portland, OR 97209",
@@ -759,7 +741,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Bothell",
           "NAME_LIBRARY": "UW Bothell and Cascadia College Library",
           "ADDRESS_CAMPUS": "18115 Campus Way NE, Bothell, WA 98011",
@@ -772,7 +753,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Tacoma",
           "NAME_LIBRARY": "UW Tacoma Library",
           "ADDRESS_CAMPUS": "1900 Commerce St, Tacoma, WA 98402",
@@ -802,7 +782,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Portland Nursing",
           "NAME_LIBRARY": "Portland Nursing Library",
           "ADDRESS_CAMPUS": "10345 SE Market St, Portland, OR 97216",
@@ -815,7 +794,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Missoula",
           "NAME_LIBRARY": "Missoula Library",
           "ADDRESS_CAMPUS": "2415 Mullan Rd, Missoula, MT 59808",
@@ -828,7 +806,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Billings",
           "NAME_LIBRARY": "Billings Library",
           "ADDRESS_CAMPUS": "2520 5th Ave. S Billings, Montana 59101",
@@ -875,7 +852,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Spokane",
           "NAME_LIBRARY": "Spokane Academic Library",
           "ADDRESS_CAMPUS": "412 E Spokane Falls Blvd, Spokane, WA 99202",
@@ -888,7 +864,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Tri-Cities",
           "NAME_LIBRARY": "Max E. Benitz Memorial Library",
           "ADDRESS_CAMPUS": "139-101 Sprout Rd, Richland, WA 99354",
@@ -901,7 +876,6 @@
           "LOGO": ""
         },
         {
-          "NAME_MEMBER": "",
           "NAME_CAMPUS": "Vancouver",
           "NAME_LIBRARY": "Vancouver Library",
           "ADDRESS_CAMPUS": "14204 NE Salmon Creek Ave, Vancouver, WA 98686",

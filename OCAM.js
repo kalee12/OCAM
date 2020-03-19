@@ -10,10 +10,9 @@ js_file.src = 'https://maps.googleapis.com/maps/api/js?key=' + config + '&callba
 document.body.appendChild(js_file);
 
 var map;
-
+var mapData = new Map();
 var currentCampus = null;
 var currentMarker = null;
-var mapData = new Map();
 
 function loadJSON(callback) {   
   var xobj = new XMLHttpRequest();
@@ -28,139 +27,157 @@ function loadJSON(callback) {
 }
 
 function initMap() {
-  var portland = {lat: 45.572809, lng: -122.726747};
-  map = new google.maps.Map(
+    var portland = {lat: 45.572809, lng: -122.726747};
+    map = new google.maps.Map(
     document.getElementById('map'), {zoom: 7, center: portland});
+ 
+    var mIcon = new google.maps.MarkerImage('./icons/pin-default.svg',
+        null, null, null, new google.maps.Size(30,30));
     
-
-
-
+    var mIconSelected = new google.maps.MarkerImage('./icons/pin-selected.svg',
+    null, null, null, new google.maps.Size(40,40));
     
-  loadJSON(function(response) {
-    var infowindow = new google.maps.InfoWindow();
-    
-    for (var item in response){
-      console.log(response[item].NAME_MEMBER);
-      
-      // populates list
-      let member = document.createElement("div");
-      member.className = "item";
-      member.innerHTML = response[item].NAME_MEMBER;
-      member.campuses = [];
-      member.marker = [];
-      
-      document.getElementById("list").appendChild(member);
-      
-      // populates dialog box for each member
-      let dialog = document.createElement("div");
-      let header = document.createElement("h2");
-      
-      header.innerHTML = response[item].NAME_MEMBER;
-      dialog.appendChild(header);
-      
-      member.addEventListener("click", function() {
-        showResult(dialog);
-      })
-      
+    loadJSON(function(response) {
 
-      for (var campus in response[item].CAMPUSES) {
-        let data = response[item].CAMPUSES[campus];
+        for (var item in response){
         
-        let itemCampus = document.createElement("div");
+        // populates member list
+        let member = document.createElement("div");
+        member.className = "member";
+        member.innerHTML = response[item].NAME_MEMBER;
+        member.campuses = [];
+        member.marker = [];
+        document.getElementById("list").appendChild(member);
         
-        // accounts for schools with only one campus
-        if (data.NAME_CAMPUS) {
-          let cName = document.createElement("h3");
-          cName.innerHTML = data.NAME_CAMPUS;
-          itemCampus.appendChild(cName);
-        }
+        // populates info box for each member
+        let info = document.createElement("div");
+        let header = document.createElement("div");
         
-        let cAddress = document.createElement("div");
-        let cLib = document.createElement("div");
-        let cLibPhone = document.createElement("div");
-        let cLibWebsite = document.createElement("a");
-        let cLibWebsiteText;
-        let cLibHours = document.createElement("a");
-        let cLibHoursText;
+        header.innerHTML = response[item].NAME_MEMBER;
+        header.classList.add("mHeader");
+        info.appendChild(header);
         
+        member.addEventListener("click", function() {
+            showResult(info);
+        })
         
-        cAddress.innerHTML = data.ADDRESS_CAMPUS;
-        cLib.innerHTML = data.NAME_LIBRARY;
-        cLibPhone.innerHTML = data.PHONE_CIRCULATION;
-        cLibWebsite.href = data.URL;
-        
-        if (response[item].NAME_MEMBER == "Orbis Cascade Alliance") {
-          cLibWebsiteText = document.createTextNode("Website");
-        } else {
-          cLibWebsiteText = document.createTextNode("Library website");
-        }
-        
-        itemCampus.appendChild(cAddress);
-        itemCampus.appendChild(cLib);
-        itemCampus.appendChild(cLibPhone);
-        cLibWebsite.appendChild(cLibWebsiteText);
-        itemCampus.appendChild(cLibWebsite);
-        
-        if (data.URL_HOURS) {
-          cLibHours.href = data.URL_HOURS;
-          cLibHoursText = document.createTextNode("Hours");
-          cLibHours.appendChild(cLibHoursText)        
-          itemCampus.appendChild(cLibHours);
-        }
-        
-        let marker = new google.maps.Marker({
-          position: new google.maps.LatLng(data.LAT, data.LONG),
-          map: map,
-        });
-        
-        marker.addListener('click', function() {
-          if (currentMarker != marker || currentCampus == null){
-            clear();
-            currentMarker = marker;
-            currentCampus = mapData.get(marker);
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-            currentCampus.classList.add("focus");
-            showResult(dialog);
-          }
-        });
-        
-        if (data == response[item].CAMPUSES[0]) {
-          member.marker = marker;
-        }
-        
-        itemCampus.marker = marker;
-        mapData.set(marker, itemCampus);
-        itemCampus.addEventListener('click', function() {
-          if (currentCampus != itemCampus){
-            clear();  
-          
-            if (currentCampus) {
-              currentCampus.classList.remove("focus");
+        // populates info box for each campus
+        for (var campus in response[item].CAMPUSES) {
+            let data = response[item].CAMPUSES[campus];
+            
+            let itemCampus = document.createElement("div");
+            itemCampus.classList = "campusContainer";
+            
+            // only make headers for members with multiple campuses
+            if (data.NAME_CAMPUS) {
+            let cName = document.createElement("div");
+            cName.classList.add("campus");
+            cName.innerHTML = data.NAME_CAMPUS + " Campus";
+            itemCampus.appendChild(cName);
             }
-            currentCampus = itemCampus;
-            itemCampus.classList.add("focus");
-            currentMarker = itemCampus.marker;
-            itemCampus.marker.setAnimation(google.maps.Animation.BOUNCE);
-          }
-          
-          showResult(dialog);
+            
+            let cAddress = document.createElement("div");
+            let cLib = document.createElement("div");
+            let cLibPhone = document.createElement("div");
+            let cLibWebsite = document.createElement("a");
+            let cLibWebsiteText;
+            let cLibHours = document.createElement("a");
+            let cLibHoursText;
+
+            cAddress.classList.add("address");
+            cLib.classList.add("library");
+            cLibPhone.classList.add("phone");
+            cLibWebsite.classList.add("website");
+            cLibHours.classList.add("hours");
+            
+            cAddress.innerHTML = data.ADDRESS_CAMPUS;
+            cLib.innerHTML = data.NAME_LIBRARY;
+            cLibPhone.innerHTML = data.PHONE_CIRCULATION;
+            cLibWebsite.href = data.URL;
+            cLibWebsite.target = "_blank";
+            
+            if (response[item].NAME_MEMBER == "Orbis Cascade Alliance") {
+            cLibWebsiteText = document.createTextNode("Website");
+            } else {
+            cLibWebsiteText = document.createTextNode("Library Website");
+            }
+            
+            itemCampus.appendChild(cAddress);
+            itemCampus.appendChild(cLib);
+            itemCampus.appendChild(cLibPhone);
+            cLibWebsite.appendChild(cLibWebsiteText);
+            itemCampus.appendChild(cLibWebsite);
+            
+            if (data.URL_HOURS) {
+            cLibHours.href = data.URL_HOURS;
+            cLibHours.target = "_blank";
+            cLibHoursText = document.createTextNode("Hours");
+            cLibHours.appendChild(cLibHoursText)        
+            itemCampus.appendChild(cLibHours);
+            }
+            
+            let marker = new google.maps.Marker({
+            position: new google.maps.LatLng(data.LAT, data.LONG),
+            map: map,
+            icon: mIcon
+            });
+            
+            marker.addListener('click', function() {
+            if (currentMarker != marker || currentCampus == null){
+                clear();
+                if (!currentMarker) {
+                    map.setZoom(10);
+                }
+                currentMarker = marker;
+                currentCampus = mapData.get(marker);
+                map.panTo(marker.position);
+                marker.setIcon(mIconSelected);
+                currentCampus.classList.add("focus");
+                showResult(info);
+            }
+            });
+            
+            if (data == response[item].CAMPUSES[0]) {
+            member.marker = marker;
+            }
+            
+            itemCampus.marker = marker;
+            mapData.set(marker, itemCampus);
+            itemCampus.addEventListener('click', function() {
+            if (currentCampus != itemCampus){
+                clear();  
+            
+                if (currentCampus) {
+                currentCampus.classList.remove("focus");
+                }
+                currentCampus = itemCampus;
+                itemCampus.classList.add("focus");
+                currentMarker = itemCampus.marker;
+                map.panTo(currentMarker.getPosition());
+                // map.setZoom(10);
+                itemCampus.marker.setIcon(mIconSelected);
+            }
+            
+            showResult(info);
+            });
+    
+            info.appendChild(itemCampus);
+            member.campuses.push(itemCampus);
+        }
+        
+        member.addEventListener('click', function() {
+            clear();
+            currentCampus = member.campuses[0];
+            member.campuses[0].classList.add("focus");
+            currentMarker = member.marker;
+            member.marker.setIcon(new google.maps.MarkerImage('./icons/pin-selected.svg',
+                null, null, null, new google.maps.Size(40,40)));
+            map.panTo(member.marker.position);
+            map.setZoom(10);
+            showResult(info);
         });
-  
-        dialog.appendChild(itemCampus);
-        member.campuses.push(itemCampus);
-      }
-      
-      member.addEventListener('click', function() {
-          clear();
-          currentCampus = member.campuses[0];
-          member.campuses[0].classList.add("focus");
-          currentMarker = member.marker;
-          member.marker.setAnimation(google.maps.Animation.BOUNCE);
-          map.panTo(member.marker.position);
-          showResult(dialog);
-      });
-    }
-  });
+        }
+    });
   
   map.addListener('click', function() {
     clear(currentCampus, mapData);
@@ -169,9 +186,9 @@ function initMap() {
 }
 
 function clear() {
-  debugger;
   if (currentMarker) {
-    currentMarker.setAnimation(undefined);
+    currentMarker.setIcon(new google.maps.MarkerImage('./icons/pin-default.svg',
+            null, null, null, new google.maps.Size(30,30)));
     mapData.get(currentMarker).classList.remove("focus");
     currentMarker = null;
   }
@@ -182,11 +199,12 @@ function clear() {
   }
 }
 
-function showResult(dialog) {
+function showResult(info) {
   document.getElementById("list").style.display = "none";
   let result = document.getElementById("result");
   result.innerHTML = "";
-  result.appendChild(dialog);
+  result.appendChild(info);
+  document.getElementById("nav").style.display = "initial";
   document.getElementById("resultContainer").style.display = "initial";  
 }
 
@@ -194,6 +212,7 @@ document.getElementById("nav").addEventListener("click", nav);
 
 function nav() {
   clear();
+  document.getElementById("nav").style.display = "none";
   document.getElementById("resultContainer").style.display = "none";
   document.getElementById("list").style.display = "block";    
 }
