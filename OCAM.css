@@ -26,7 +26,7 @@ a:hover {
 }
 
 .container-fluid, html, body, 
-    #list, #map, #panel, .row {
+    #list, #map, #panel {
     height: 100%;
 }
 
@@ -34,6 +34,12 @@ a:hover {
     /* border: 1px solid red; */
     background-color: rgba(61, 16, 112, .1);
     /* color: white; */
+}
+
+#header {
+    align-self: center;
+    font-size: 1.2em;
+    padding-left: 17%;
 }
 
 .hours {
@@ -51,7 +57,7 @@ html, body {
 }
 
 #list {
-    height: 90%;
+    height: 85%;
 }
 
 #list, #result {
@@ -60,12 +66,13 @@ html, body {
 }
 
 #lHeader {
+    /* align-self: center; */
     background-color : #3d1070;
     color: white;
     font-size: 1.2em;
     font-weight: 500;
     padding: 5%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .member {
@@ -90,9 +97,9 @@ html, body {
 
 #nav {
     color: white;
-    display: none;
-    position: absolute;
-    top: 0;
+    visibility: hidden;
+    /* position: absolute; */
+    /* top: 0; */
 }
 
 #panel {
@@ -100,7 +107,7 @@ html, body {
 }
 
 #result {
-    height: 90%;
+    height: 70%;
     /* padding: 7%; */
 }
 

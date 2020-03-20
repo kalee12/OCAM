@@ -55,7 +55,7 @@ function initMap() {
         
         header.innerHTML = response[item].NAME_MEMBER;
         header.classList.add("mHeader");
-        info.appendChild(header);
+        info.member = header;
         
         member.addEventListener("click", function() {
             showResult(info);
@@ -125,11 +125,17 @@ function initMap() {
             marker.addListener('click', function() {
             if (currentMarker != marker || currentCampus == null){
                 clear();
-                if (!currentMarker) {
-                    map.setZoom(10);
-                }
+                checkZoom();
                 currentMarker = marker;
                 currentCampus = mapData.get(marker);
+                // var divElem = document.getElementById('scrolling_div');
+                // var chElem = document.getElementById('element_within_div');
+                // var topPos = divElem.offsetTop;
+                // divElem.scrollTop = topPos - chElem.offsetTop;
+                debugger;
+                var result = document.getElementById("result");
+                var topPos = result.offsetTop;
+                result.scrollTop = topPos - currentCampus.offsetTop;
                 map.panTo(marker.position);
                 marker.setIcon(mIconSelected);
                 currentCampus.classList.add("focus");
@@ -153,8 +159,8 @@ function initMap() {
                 currentCampus = itemCampus;
                 itemCampus.classList.add("focus");
                 currentMarker = itemCampus.marker;
+                checkZoom();
                 map.panTo(currentMarker.getPosition());
-                // map.setZoom(10);
                 itemCampus.marker.setIcon(mIconSelected);
             }
             
@@ -173,7 +179,7 @@ function initMap() {
             member.marker.setIcon(new google.maps.MarkerImage('./icons/pin-selected.svg',
                 null, null, null, new google.maps.Size(40,40)));
             map.panTo(member.marker.position);
-            map.setZoom(10);
+            checkZoom();
             showResult(info);
         });
         }
@@ -201,10 +207,13 @@ function clear() {
 
 function showResult(info) {
   document.getElementById("list").style.display = "none";
+  let resultMember = document.getElementById("resultMember");
   let result = document.getElementById("result");
+  resultMember.innerHTML = "";
   result.innerHTML = "";
+  resultMember.appendChild(info.member);
   result.appendChild(info);
-  document.getElementById("nav").style.display = "initial";
+  document.getElementById("nav").style.visibility = "initial";
   document.getElementById("resultContainer").style.display = "initial";  
 }
 
@@ -212,7 +221,13 @@ document.getElementById("nav").addEventListener("click", nav);
 
 function nav() {
   clear();
-  document.getElementById("nav").style.display = "none";
+  document.getElementById("nav").style.visibility = "hidden";
   document.getElementById("resultContainer").style.display = "none";
   document.getElementById("list").style.display = "block";    
+}
+
+function checkZoom() {
+    if (map.getZoom() < 10) {
+        map.setZoom(10);
+    }
 }

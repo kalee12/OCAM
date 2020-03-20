@@ -12,12 +12,16 @@
 
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" style="height: 100%">
                 <div class="order-2 order-md-1 col-12 col-md-4 col-lg-3" id="panel">
-                    <div id="lHeader">Members</div>
-                    <div id="nav">back</div>
+                    <div id="lHeader" class="row">
+                        <div id="nav" class="col-2"><img id="arrow" src="./icons/arrow-back.svg" alt="back"/></div>
+                        <div id="header" class="col-10">Members</div>
+                    </div>
+                    
                     <div id="list"></div>
                     <div id="resultContainer">
+                        <div id="resultMember"></div>
                         <div id="result"></div>
                     </div>
                 </div>
