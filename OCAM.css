@@ -5,13 +5,15 @@ a {
 }
 
 a:hover {
-    /* color: white; */
     text-decoration: none;
 }
 
 .address {
     font-size: .9em;
     font-style: italic;
+}
+
+.address, .phone {
     margin-bottom: 2%;
 }
 
@@ -31,19 +33,13 @@ a:hover {
 }
 
 .focus, .mHeader {
-    /* border: 1px solid red; */
     background-color: rgba(61, 16, 112, .1);
-    /* color: white; */
 }
 
 #header {
     align-self: center;
     font-size: 1.2em;
     padding-left: 17%;
-}
-
-.hours {
-
 }
 
 html, body {
@@ -53,7 +49,14 @@ html, body {
 
 .library {
     font-size: 1.2em;
-    /* font-weight: 500; */
+}
+
+#lHeader {
+    background-color : #3d1070;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5%;
 }
 
 #list {
@@ -65,20 +68,10 @@ html, body {
     overflow-x: hidden;
 }
 
-#lHeader {
-    /* align-self: center; */
-    background-color : #3d1070;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: 5%;
-    /* text-align: center; */
-}
-
 .member {
+    border-bottom: 1px solid rgba(61, 16, 112, .1);
     font-weight: 500;
     padding: 10%;
-    border-bottom: 1px solid rgba(61, 16, 112, .1);
 }
 
 .member:hover {
@@ -92,14 +85,11 @@ html, body {
     font-weight: 600;
     padding: 4%;
     text-align: center;
-    /* border: 5px solid red; */
 }
 
 #nav {
     color: white;
     visibility: hidden;
-    /* position: absolute; */
-    /* top: 0; */
 }
 
 #panel {
@@ -108,7 +98,6 @@ html, body {
 
 #result {
     height: 70%;
-    /* padding: 7%; */
 }
 
 #resultContainer {
@@ -119,13 +108,8 @@ html, body {
     width: 5px;
 }
 
-/* #panel::-webkit-scrollbar {*/
-/*    width: 10px !important;*/
-/*    background: transparent;*/
-/*} */
-
 ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
     background-color: rgba(0, 0, 1, .2);
+    border-radius: 4px;
     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }

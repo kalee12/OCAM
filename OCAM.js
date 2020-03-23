@@ -58,7 +58,7 @@ function initMap() {
       info.member = header;
       
       member.addEventListener("click", function() {
-          showResult(info);
+        showResult(info);
       })
         
       // populates info box for each campus
@@ -124,17 +124,17 @@ function initMap() {
           
         marker.addListener('click', function() {
           if (currentMarker != marker || currentCampus == null) {
-              clear();
-              checkZoom();
-              currentMarker = marker;
-              currentCampus = mapData.get(marker);                
-              map.panTo(marker.position);
-              marker.setIcon(mIconSelected);
-              currentCampus.classList.add("focus");
-              showResult(info);
-              var result = document.getElementById("result");
-              var topPos = result.offsetTop;
-              result.scrollTop = currentCampus.offsetTop - topPos;
+            clear();
+            checkZoom();
+            currentMarker = marker;
+            currentCampus = mapData.get(marker);                
+            map.panTo(marker.position);
+            marker.setIcon(mIconSelected);
+            currentCampus.classList.add("focus");
+            showResult(info);
+            var result = document.getElementById("result");
+            var topPos = result.offsetTop;
+            result.scrollTop = currentCampus.offsetTop - topPos;
           }
         });
         
@@ -147,7 +147,6 @@ function initMap() {
         itemCampus.addEventListener('click', function() {
           if (currentCampus != itemCampus){
             clear();  
-        
             if (currentCampus) {
               currentCampus.classList.remove("focus");
             }
@@ -158,7 +157,6 @@ function initMap() {
             map.panTo(currentMarker.getPosition());
             itemCampus.marker.setIcon(mIconSelected);
           }
-          
           showResult(info);
           var result = document.getElementById("result");
           var topPos = result.offsetTop;
