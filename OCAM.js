@@ -79,41 +79,49 @@ function initMap() {
         let cAddress = document.createElement("div");
         let cLib = document.createElement("div");
         let cLibPhone = document.createElement("div");
-        let cLibWebsite = document.createElement("a");
-        let cLibWebsiteText;
-        let cLibHours = document.createElement("a");
-        let cLibHoursText;
 
         cAddress.classList.add("address");
         cLib.classList.add("library");
         cLibPhone.classList.add("phone");
-        cLibWebsite.classList.add("website");
-        cLibHours.classList.add("hours");
-          
+
         cAddress.innerHTML = data.ADDRESS_CAMPUS;
         cLib.innerHTML = data.NAME_LIBRARY;
         cLibPhone.innerHTML = data.PHONE_CIRCULATION;
-        cLibWebsite.href = data.URL;
-        cLibWebsite.target = "_blank";
-        
-        if (response[item].NAME_MEMBER == "Orbis Cascade Alliance") {
-          cLibWebsiteText = document.createTextNode("Website");
-        } else {
-          cLibWebsiteText = document.createTextNode("Library Website");
-        }
-          
+
         itemCampus.appendChild(cAddress);
         itemCampus.appendChild(cLib);
         itemCampus.appendChild(cLibPhone);
-        cLibWebsite.appendChild(cLibWebsiteText);
-        itemCampus.appendChild(cLibWebsite);
-          
+
+        if (data.URL) {
+          let cLibWebsite = document.createElement("a");
+          let cLibWebsiteText;
+          cLibWebsite.classList.add("website");
+          cLibWebsite.href = data.URL;
+          cLibWebsite.target = "_blank";
+          if (response[item].NAME_MEMBER == "Orbis Cascade Alliance") {
+            cLibWebsiteText = document.createTextNode("Website");
+          } else {
+            cLibWebsiteText = document.createTextNode("Library Website");
+          }
+
+          cLibWebsite.appendChild(cLibWebsiteText);
+          itemCampus.appendChild(cLibWebsite);
+        }
+
         if (data.URL_HOURS) {
-          cLibHours.href = data.URL_HOURS;
-          cLibHours.target = "_blank";
-          cLibHoursText = document.createTextNode("Hours");
-          cLibHours.appendChild(cLibHoursText)        
-          itemCampus.appendChild(cLibHours);
+          let cLibHours;
+          if (data.URL_HOURS == "Posted on library website") {
+            cLibHours = document.createElement("div");
+            cLibHours.innerText = "Posted on library website";
+          } else {
+            cLibHours = document.createElement("a");
+            let cLibHoursText = document.createTextNode("Hours");
+            cLibHours.appendChild(cLibHoursText)  
+            cLibHours.href = data.URL_HOURS;
+            cLibHours.target = "_blank";
+          }
+          cLibHours.classList.add("hours");      
+          itemCampus.appendChild(cLibHours);              
         }
           
         let marker = new google.maps.Marker({
@@ -184,7 +192,7 @@ function initMap() {
   });
   
   map.addListener('click', function() {
-    clear(currentCampus, mapData);
+    clear();
     nav();
   });
 }
