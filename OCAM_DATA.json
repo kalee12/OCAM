@@ -40,7 +40,7 @@
           "LONG": -122.301691,
           "URL": "http://www.lib.cwu.edu/Des-Moines-Campus-Library",
           "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
-          "PHONE_CIRCULATION": "(206) 439-3800",
+          "PHONE_CIRCULATION": "(206) 439-3800 x3849",
           "LOGO": ""
         },
         {
@@ -52,7 +52,7 @@
           "LONG": -122.326785,
           "URL": "http://www.lib.cwu.edu/Lynnwood-Campus-Library",
           "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
-          "PHONE_CIRCULATION": "(425) 640-1574",
+          "PHONE_CIRCULATION": "(425) 640-1574 x3753",
           "LOGO": ""
         }
       ]  
@@ -386,7 +386,7 @@
           "LONG": -122.766433,
           "URL": null,
           "URL_HOURS": "https://www.oit.edu/libraries/about/library-service-hours",
-          "PHONE_CIRCULATION": "(503) 821-1258",
+          "PHONE_CIRCULATION": "(503) 821-1260",
           "LOGO": ""
         }
       ]
@@ -790,7 +790,7 @@
           "LONG": -122.55661,
           "URL": "https://www.wallawalla.edu/academics/libraries/portland-library/",
           "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
-          "PHONE_CIRCULATION": "Portland Nursing Librarian: (509) 527-2134",
+          "PHONE_CIRCULATION": "Portland Nursing Librarian: (509) 527-2124",
           "LOGO": ""
         },
         {
@@ -884,7 +884,7 @@
           "LONG": -122.636155,
           "URL": "https://library.vancouver.wsu.edu/",
           "URL_HOURS": "https://library.vancouver.wsu.edu/library-hours",
-          "PHONE_CIRCULATION": "(360) 546-9686",
+          "PHONE_CIRCULATION": "(360) 546-9680",
           "LOGO": ""
         }
       ]
