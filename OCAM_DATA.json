@@ -12,7 +12,7 @@
           "URL": "https://www.cocc.edu/departments/library/",
           "URL_HOURS": "https://www.cocc.edu/departments/library/about/hours.aspx",
           "PHONE_CIRCULATION": "(541) 383-7560",
-          "LOGO": ""
+          "LOGO": "01_COCC.png"
         }
       ]
     },
@@ -29,7 +29,7 @@
           "URL": "http://www.lib.cwu.edu/",
           "URL_HOURS": "http://www.lib.cwu.edu/Library-Hours",
           "PHONE_CIRCULATION": "(509) 963-3682",
-          "LOGO": ""
+          "LOGO": "02_CWU.png"
         },
         {
           "NAME_CAMPUS": "Des Moines",
@@ -70,7 +70,7 @@
           "URL": "https://library.chemeketa.edu/",
           "URL_HOURS": "https://library.chemeketa.edu/about-the-library/library-hours/",
           "PHONE_CIRCULATION": "(503) 339-5043",
-          "LOGO": ""
+          "LOGO": "03_CCC.png"
         },
         {
           "NAME_CAMPUS": "Yamhill Valley",
@@ -99,7 +99,7 @@
           "URL": "http://libguides.clackamas.edu/home",
           "URL_HOURS": "http://libguides.clackamas.edu/hours",
           "PHONE_CIRCULATION": "(503) 594-6323",
-          "LOGO": ""
+          "LOGO": "04_CCC.png"
         }
       ]
     },
@@ -116,7 +116,7 @@
           "URL": "http://library.clark.edu/",
           "URL_HOURS": "http://library.clark.edu/content/hours-exceptions",
           "PHONE_CIRCULATION": "(360) 992-2151",
-          "LOGO": ""
+          "LOGO": "05_CC.png"
         }
       ]
     },
@@ -133,7 +133,7 @@
           "URL": "https://www.cu-portland.edu/academics/libraries",
           "URL_HOURS": "Posted on library website",
           "PHONE_CIRCULATION": "(503) 280-8507",
-          "LOGO": ""
+          "LOGO": "06_CU.gif"
         }
       ]
     },
@@ -150,7 +150,7 @@
           "URL": "https://library.eou.edu/",
           "URL_HOURS": "https://library.eou.edu/about/library-hours/",
           "PHONE_CIRCULATION": "(541) 962-3864",
-          "LOGO": ""
+          "LOGO": "07_EUO.png"
         }
       ]
     },
@@ -167,7 +167,7 @@
           "URL": "https://www.ewu.edu/library/",
           "URL_HOURS": "https://www.ewu.edu/library/contact/#section-1",
           "PHONE_CIRCULATION": "(509) 359-7888",
-          "LOGO": ""
+          "LOGO": "08_EWU.png"
         },
         {
           "NAME_CAMPUS": "Riverpoint",
@@ -196,7 +196,7 @@
           "URL": "https://www.georgefox.edu/library/index.html",
           "URL_HOURS": "https://www.georgefox.edu/library/about/locations/murdock.html",
           "PHONE_CIRCULATION": "(503) 554-2410",
-          "LOGO": ""
+          "LOGO": "09_GFU.png"
         },
         {
           "NAME_CAMPUS": "Portland Center",
@@ -249,7 +249,7 @@
           "URL": "https://library.lanecc.edu/",
           "URL_HOURS": "https://library.lanecc.edu/about/hours",
           "PHONE_CIRCULATION": "(541) 463-5220",
-          "LOGO": ""
+          "LOGO": "10_LCC.png"
         }
       ]
     },
@@ -266,7 +266,7 @@
           "URL": "https://college.lclark.edu/library/",
           "URL_HOURS": "https://library.lclark.edu/hours-calendar",
           "PHONE_CIRCULATION": "(503) 768-7270",
-          "LOGO": ""
+          "LOGO": "11_LCC.png"
         }
       ]
     },
@@ -283,7 +283,7 @@
           "URL": "https://www.linfield.edu/linfield-libraries.html",
           "URL_HOURS": "https://www.linfield.edu/linfield-libraries/libraries-information/library-hours.html",
           "PHONE_CIRCULATION": "(503) 883-2261",
-          "LOGO": ""
+          "LOGO": "12_LC.png"
         },
         {
           "NAME_CAMPUS": "Portland",
@@ -312,7 +312,7 @@
           "URL": "https://www.mhcc.edu/library/",
           "URL_HOURS": "https://www.mhcc.edu/LibraryHours/",
           "PHONE_CIRCULATION": "(503) 491-7161",
-          "LOGO": ""
+          "LOGO": "13_MHCC.jpg"
         },
         {
           "NAME_CAMPUS": "Maywood",
@@ -341,7 +341,7 @@
           "URL": "https://www.orbiscascade.org/",
           "URL_HOURS": "null",
           "PHONE_CIRCULATION": "(541) 246-2470",
-          "LOGO": ""
+          "LOGO": "14_OCA.png"
         }
       ]
     },
@@ -358,7 +358,7 @@
           "URL": "https://www.ohsu.edu/library",
           "URL_HOURS": "https://www.ohsu.edu/library/full-calendar-hours",
           "PHONE_CIRCULATION": "(503) 494-3460",
-          "LOGO": ""
+          "LOGO": "15_OHSU.jpg"
         }
       ]
     },
@@ -375,7 +375,7 @@
           "URL": "https://www.oit.edu/libraries",
           "URL_HOURS": "https://www.oit.edu/libraries/about/library-service-hours",
           "PHONE_CIRCULATION": "(541) 885-1772",
-          "LOGO": ""
+          "LOGO": "16_OIT.png"
         },
         {
           "NAME_CAMPUS": "Portland Metro",
@@ -404,7 +404,7 @@
           "URL": "https://library.oregonstate.edu/",
           "URL_HOURS": "https://library.oregonstate.edu/valley-library-hours",
           "PHONE_CIRCULATION": "(541) 737-3331",
-          "LOGO": ""
+          "LOGO": "17_OSU.png"
         },
         {
           "NAME_CAMPUS": "Cascades",
@@ -433,7 +433,7 @@
           "URL": "https://www.lib.pacificu.edu/",
           "URL_HOURS": "https://www.lib.pacificu.edu/forest-grove/",
           "PHONE_CIRCULATION": "(503) 353-1400",
-          "LOGO": ""
+          "LOGO": "18_PU.png"
         },
         {
           "NAME_CAMPUS": "Hilsboro",
@@ -486,7 +486,7 @@
           "URL": "https://www.pcc.edu/library/",
           "URL_HOURS": "https://www.pcc.edu/library/hours/",
           "PHONE_CIRCULATION": "(971) 722-4935",
-          "LOGO": ""
+          "LOGO": "19_PCC.png"
         },
         {
           "NAME_CAMPUS": "Cascade",
@@ -539,7 +539,7 @@
           "URL": "https://library.pdx.edu/",
           "URL_HOURS": "https://library.pdx.edu/about/hours/",
           "PHONE_CIRCULATION": "(503) 725-5874",
-          "LOGO": ""
+          "LOGO": "20_PSU.png"
         }
       ]
     },
@@ -556,7 +556,7 @@
           "URL": "https://library.reed.edu/",
           "URL_HOURS": "https://library.reed.edu/hours.html",
           "PHONE_CIRCULATION": "(503) 777-7702",
-          "LOGO": ""
+          "LOGO": "21_RC.png"
         }
       ]
     },
@@ -573,7 +573,7 @@
           "URL": "https://www.stmartin.edu/academics/academic-resources/ogrady-library",
           "URL_HOURS": "https://www.stmartin.edu/academics/academic-resources/ogrady-library/about/hours",
           "PHONE_CIRCULATION": "(360) 688-2260",
-          "LOGO": ""
+          "LOGO": "22_SMU.jpeg"
         }
       ]
     },
@@ -590,7 +590,7 @@
           "URL": "https://spu.edu/library",
           "URL_HOURS": "https://spu.edu/library/about-the-library/library-hours",
           "PHONE_CIRCULATION": "(206) 281-2228",
-          "LOGO": ""
+          "LOGO": "23_SPU.png"
         }
       ]
     },
@@ -607,7 +607,7 @@
           "URL": "https://www.seattleu.edu/library/",
           "URL_HOURS": "https://libguides.seattleu.edu/libraryhours",
           "PHONE_CIRCULATION": "(206) 296-6233",
-          "LOGO": ""
+          "LOGO": "24_SU.png"
         }
       ]
     },
@@ -624,7 +624,7 @@
           "URL": "https://hanlib.sou.edu/",
           "URL_HOURS": "https://hanlib.sou.edu/about/hours.html",
           "PHONE_CIRCULATION": "(541) 552-6860",
-          "LOGO": ""
+          "LOGO": "25_SOU.png"
         }
       ]
     },
@@ -641,7 +641,7 @@
           "URL": "https://www.evergreen.edu/library",
           "URL_HOURS": "https://www.evergreen.edu/library/hours",
           "PHONE_CIRCULATION": "(360) 867-6250",
-          "LOGO": ""
+          "LOGO": "26_ESC.png"
         }
       ]
     },
@@ -658,7 +658,7 @@
           "URL": "https://www.lib.uidaho.edu/",
           "URL_HOURS": "https://www.lib.uidaho.edu/about/hours.html",
           "PHONE_CIRCULATION": "(208) 885-6534",
-          "LOGO": ""
+          "LOGO": "27_UI.png"
         }
       ]
     },
@@ -675,7 +675,7 @@
           "URL": "https://library.uoregon.edu/",
           "URL_HOURS": "https://library.uoregon.edu/knight/hours/month",
           "PHONE_CIRCULATION": "(541) 346-3053",
-          "LOGO": ""
+          "LOGO": "28_UOO.png"
         },
         {
           "NAME_CAMPUS": "Portland",
@@ -704,7 +704,7 @@
           "URL": "https://library.up.edu/index.html",
           "URL_HOURS": "https://library.up.edu/about-the-library/hours/index.html",
           "PHONE_CIRCULATION": "(503) 943-7111",
-          "LOGO": ""
+          "LOGO": "29_UOP.png"
         }
       ]
     },
@@ -721,7 +721,7 @@
           "URL": "https://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/",
           "URL_HOURS": "https://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/about-collins/hours/",
           "PHONE_CIRCULATION": "(253) 879-3669",
-          "LOGO": ""
+          "LOGO": "30_UOPS.jpg"
         }
       ]
     },
@@ -738,7 +738,7 @@
           "URL": "https://www.lib.washington.edu/",
           "URL_HOURS": "https://www.lib.washington.edu/about/hours/suzzallo",
           "PHONE_CIRCULATION": "(206) 543-0242",
-          "LOGO": ""
+          "LOGO": "31_UW.png"
         },
         {
           "NAME_CAMPUS": "Bothell",
@@ -779,7 +779,7 @@
           "URL": "https://www.wallawalla.edu/academics/libraries/",
           "URL_HOURS": "https://www.wallawalla.edu/?id=2163",
           "PHONE_CIRCULATION": "(509) 527-2134",
-          "LOGO": ""
+          "LOGO": "32_WWU.png"
         },
         {
           "NAME_CAMPUS": "Portland Nursing",
@@ -832,7 +832,7 @@
           "URL": "https://library.warnerpacific.edu/",
           "URL_HOURS": "https://library.warnerpacific.edu/about/hours/",
           "PHONE_CIRCULATION": "(503) 517-1102",
-          "LOGO": ""
+          "LOGO": "33_WPU.jpg"
         }
       ]
     },
@@ -849,7 +849,7 @@
           "URL": "https://libraries.wsu.edu/",
           "URL_HOURS": "https://libraries.wsu.edu/about/holland-terrell",
           "PHONE_CIRCULATION": "(509) 335-9672",
-          "LOGO": ""
+          "LOGO": "34_WSU.png"
         },
         {
           "NAME_CAMPUS": "Spokane",
@@ -902,7 +902,7 @@
           "URL": "https://library.wou.edu/",
           "URL_HOURS": "https://library.wou.edu/hours/",
           "PHONE_CIRCULATION": "(503) 838-8418",
-          "LOGO": ""
+          "LOGO": "35_WOU.gif"
         }
       ]
     },
@@ -919,7 +919,7 @@
           "URL": "https://library.wwu.edu/",
           "URL_HOURS": "https://library.wwu.edu/about/hours",
           "PHONE_CIRCULATION": "(360) 650-3084",
-          "LOGO": ""
+          "LOGO": "36_WWU.png"
         }
       ]
     },
@@ -936,7 +936,7 @@
           "URL": "https://library.whitman.edu/",
           "URL_HOURS": "https://library.whitman.edu/about-the-library/#Hours",
           "PHONE_CIRCULATION": "(509) 527-5192",
-          "LOGO": ""
+          "LOGO": "37_WC.png"
         }
       ]
     },
@@ -953,7 +953,7 @@
           "URL": "https://libguides.whitworth.edu/main",
           "URL_HOURS": "http://libguides.whitworth.edu/about/hours",
           "PHONE_CIRCULATION": "(509) 777-4491",
-          "LOGO": ""
+          "LOGO": "38_WU.png"
         }
       ]
     },
@@ -970,7 +970,7 @@
           "URL": "https://library.willamette.edu/",
           "URL_HOURS": "https://library.willamette.edu/about/calendar/",
           "PHONE_CIRCULATION": "(503) 370-6018",
-          "LOGO": ""      
+          "LOGO": "39_WU.jpg"      
         }
       ]
     }

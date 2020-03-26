@@ -9,7 +9,7 @@ a:hover {
 }
 
 .address {
-    font-size: .9em;
+    font-size: .8em;
     font-style: italic;
 }
 
@@ -18,7 +18,7 @@ a:hover {
 }
 
 .campus {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 500;
 }
 
@@ -54,7 +54,7 @@ html, body {
 #lHeader {
     background-color : #3d1070;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
     padding: 5%;
 }
@@ -81,7 +81,7 @@ html, body {
 
 .mHeader {
     border-bottom: 1px solid rgba(61, 16, 112, .1);
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 600;
     padding: 4%;
     text-align: center;
@@ -97,11 +97,20 @@ html, body {
 }
 
 #result {
-    height: 70%;
+    height: 55%;
 }
 
 #resultContainer {
     display: none;
+}
+
+#resultLogo {
+    height: 20%;
+    text-align: center;
+}
+
+#resultLogo img {
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -113,3 +122,9 @@ html, body {
     border-radius: 4px;
     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
+
+/* @media only screen and (min-width: 992px) {
+    #result {
+        height: 55%;
+    }
+} */

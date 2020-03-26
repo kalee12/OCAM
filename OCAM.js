@@ -41,7 +41,7 @@ function initMap() {
 
     for (var item in response){
         
-      // populates member list
+      // populates item for member list
       let member = document.createElement("div");
       member.className = "member";
       member.innerHTML = response[item].NAME_MEMBER;
@@ -52,16 +52,21 @@ function initMap() {
       // populates info box for each member
       let info = document.createElement("div");
       let header = document.createElement("div");
+      let logo = document.createElement("img");
       
       header.innerHTML = response[item].NAME_MEMBER;
       header.classList.add("mHeader");
       info.member = header;
+
+      logo.src = "./icons/" + response[item].CAMPUSES[0].LOGO;
+      logo.alt = response[item].NAME_MEMBER + " logo";
+      info.logo = logo;
       
       member.addEventListener("click", function() {
         showResult(info);
       })
         
-      // populates info box for each campus
+      // populates info for each campus
       for (var campus in response[item].CAMPUSES) {
         let data = response[item].CAMPUSES[campus];
           
@@ -213,11 +218,14 @@ function clear() {
 
 function showResult(info) {
   document.getElementById("list").style.display = "none";
+  let resultLogo = document.getElementById("resultLogo");
   let resultMember = document.getElementById("resultMember");
   let result = document.getElementById("result");
+  resultLogo.innerHTML = "";
   resultMember.innerHTML = "";
   result.innerHTML = "";
   resultMember.appendChild(info.member);
+  resultLogo.appendChild(info.logo);
   result.appendChild(info);
   document.getElementById("nav").style.visibility = "initial";
   document.getElementById("resultContainer").style.display = "initial";  
