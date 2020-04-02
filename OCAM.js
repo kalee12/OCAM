@@ -97,8 +97,9 @@ function initMap() {
         itemCampus.appendChild(cLib);
         itemCampus.appendChild(cLibPhone);
 
+        let cLibWebsite;
         if (data.URL) {
-          let cLibWebsite = document.createElement("a");
+          cLibWebsite = document.createElement("a");
           let cLibWebsiteText;
           cLibWebsite.classList.add("website");
           cLibWebsite.href = data.URL;
@@ -110,8 +111,12 @@ function initMap() {
           }
 
           cLibWebsite.appendChild(cLibWebsiteText);
-          itemCampus.appendChild(cLibWebsite);
+        } else {
+          cLibWebsite = document.createElement("div");
+          cLibWebsite.innerHTML = "No website available";
+          
         }
+        itemCampus.appendChild(cLibWebsite);
 
         if (data.URL_HOURS) {
           let cLibHours;
