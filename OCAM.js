@@ -46,7 +46,6 @@ function initMap() {
       member.className = "member";
       member.innerHTML = response[item].NAME_MEMBER;
       member.campuses = [];
-      member.marker = [];
       document.getElementById("list").appendChild(member);
           
       // populates info box for each member
