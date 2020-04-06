@@ -19,16 +19,23 @@ a:hover {
 
 .campus {
     font-size: 1.4em;
+
+}
+
+.campus, #lHeader {
     font-weight: 500;
 }
 
 .campusContainer {
-    border-bottom: 1px solid rgba(61, 16, 112, .1);
     padding: 5% 7% 5% 7%;
 }
 
+.campusContainer, .member, .mHeader {
+    border-bottom: 1px solid rgba(61, 16, 112, .1);
+}
+
 .container-fluid, html, body, 
-    #list, #map, #panel {
+    #list, #map, #panel, #resultLogo img {
     height: 100%;
 }
 
@@ -55,7 +62,6 @@ html, body {
     background-color : #3d1070;
     color: white;
     font-size: 1.1em;
-    font-weight: 500;
     padding: 5%;
 }
 
@@ -69,7 +75,6 @@ html, body {
 }
 
 .member {
-    border-bottom: 1px solid rgba(61, 16, 112, .1);
     font-weight: 500;
     padding: 10%;
 }
@@ -80,7 +85,6 @@ html, body {
 }
 
 .mHeader {
-    border-bottom: 1px solid rgba(61, 16, 112, .1);
     font-size: 1.1em;
     font-weight: 600;
     padding: 4%;
@@ -109,10 +113,6 @@ html, body {
     text-align: center;
 }
 
-#resultLogo img {
-    height: 100%;
-}
-
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -123,8 +123,3 @@ html, body {
     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
-/* @media only screen and (min-width: 992px) {
-    #result {
-        height: 55%;
-    }
-} */
